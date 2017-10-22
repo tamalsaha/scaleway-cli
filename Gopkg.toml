@@ -1,0 +1,87 @@
+
+# Gopkg.toml example
+#
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+# [[constraint]]
+#   name = "github.com/user/project2"
+#   branch = "dev"
+#   source = "github.com/myfork/project2"
+#
+# [[override]]
+#  name = "github.com/x/y"
+#  version = "2.4.0"
+
+
+[[constraint]]
+  name = "github.com/docker/docker"
+  revision = "1e4068713bdc7ac57c5134ae0469dc7ecefb8445"
+
+[[constraint]]
+  name = "github.com/docker/go-units"
+  revision = "09dda9d4b0d748c57c14048906d3d094a58ec0c9"
+
+[[constraint]]
+  name = "github.com/dustin/go-humanize"
+  revision = "f3565c9525600a911af3bd34f8b535ea81b2a9e0"
+
+[[constraint]]
+  name = "github.com/hashicorp/go-version"
+  revision = "0181db47023708a38c2d20d2fe25a5fa034d5743"
+
+[[constraint]]
+  name = "github.com/kardianos/osext"
+  revision = "29ae4ffbc9a6fe9fb2bc5029050ce6996ea1d3bc"
+
+[[constraint]]
+  name = "github.com/mattn/go-isatty"
+  revision = "56b76bdf51f7708750eac80fa38b952bb9f32639"
+
+[[constraint]]
+  name = "github.com/moul/anonuuid"
+  revision = "609b752a95effbbef26d134ac18ed6f57e01b98e"
+
+[[constraint]]
+  name = "github.com/moul/gotty-client"
+  branch = "master"
+  source = "https://github.com/tamalsaha/gotty-client.git"
+
+[[constraint]]
+  name = "github.com/moul/http2curl"
+  revision = "b1479103caacaa39319f75e7f57fc545287fca0d"
+
+[[constraint]]
+  name = "github.com/renstrom/fuzzysearch"
+  revision = "2d205ac6ec17a839a94bdbfd16d2fa6c6dada2e0"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "v1.0.3"
+
+[[constraint]]
+  name = "github.com/skratchdot/open-golang"
+  revision = "75fb7ed4208cf72d323d7d02fd1a5964a7a9073c"
+
+[[constraint]]
+  name = "github.com/smartystreets/goconvey"
+  revision = "c53abc99456fa3402dd33c15ee51c3e545e04a3f"
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  revision = "8d64eb7173c7753d6419fd4a9caf057398611364"
+
+[[constraint]]
+  name = "golang.org/x/crypto"
+  revision = "5bcd134fee4dd1475da17714aac19c0aa0142e2f"
+
+[[constraint]]
+  name = "golang.org/x/sync"
+  revision = "316e794f7b5e3df4e95175a45a5fb8b12f85cb4f"

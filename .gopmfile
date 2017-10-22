@@ -1,5 +1,5 @@
 [deps]
-github.com/Sirupsen/logrus = 
+github.com/sirupsen/logrus = 
 github.com/docker/docker = 
 github.com/scaleway/scaleway-cli = 
 
