@@ -23,7 +23,7 @@
 
 [[constraint]]
   name = "github.com/docker/docker"
-  revision = "1e4068713bdc7ac57c5134ae0469dc7ecefb8445"
+  revision = "4f3616fb1c112e206b88cb7a9922bf49067a7756"
 
 [[constraint]]
   name = "github.com/docker/go-units"
